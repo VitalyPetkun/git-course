@@ -3,5 +3,6 @@ public class Main {
         Student s = new Student();
         System.out.println("hello" + s.getName());
         System.out.println("Age " + s.getAge());
+        System.out.println("Age " + (s.getAge()+10));
     }
 }
